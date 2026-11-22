@@ -122,7 +122,7 @@ tests:
             - apiGroups: [""]
               resources: [secrets]
               resourceNames: [blockstor-master-key, blockstor-unlock, linstor-passphrase]
-              verbs: [get, update]
+              verbs: [get, list, watch, update]
             - apiGroups: [""]
               resources: [secrets]
               verbs: [create]
