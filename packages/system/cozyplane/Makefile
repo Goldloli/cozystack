@@ -7,7 +7,7 @@ include ../../../hack/package.mk
 # The lllamnyp/cozyplane ref charts/cozyplane is vendored from, verbatim. Keep the
 # three cozyplane packages on the same ref; Cozystack's settings live in this
 # wrapper, never in the vendored chart.
-COZYPLANE_REF=453eb6509c78a792d1fab5f5166ef3fa0e4c7942
+COZYPLANE_REF=429a63057d45137bf2361229e2b41ec0bb3ed9a8
 
 test:
 	helm unittest .
